@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "motivational-sms"
+version = "0.1.0"
+description = ""
+authors = ["Connor Jaynes <connor.create.things@gmail.com>"]
+readme = "README.md"
+packages = [{include = "motivational_sms"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^0.27.7"
+twilio = "^8.2.2"
+Flask = "^2.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

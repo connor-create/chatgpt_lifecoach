@@ -2,7 +2,7 @@
 name = "motivational-sms"
 version = "0.1.0"
 description = ""
-authors = ["Connor Jaynes <connor.create.things@gmail.com>"]
+authors = ["<connor.create.things@gmail.com>"]
 readme = "README.md"
 packages = [{include = "motivational_sms"}]
 
